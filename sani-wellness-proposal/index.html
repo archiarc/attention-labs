@@ -580,16 +580,6 @@
       </p>
     </div>
 
-    <div class="meta" data-reveal>
-      <div>Project: Sunny Wellness Bali</div>
-      <div>Prepared by: Attention Labs</div>
-      <div>Timeline: July Launch Window</div>
-    </div>
-
-    <div class="hero-actions" data-reveal>
-      <button class="btn" id="begin-btn">Begin the Proposal</button>
-      <button class="btn" id="download-btn">Download PDF Summary</button>
-    </div>
   </header>
 
   <main class="container">
@@ -935,8 +925,6 @@
     const passlockForm = document.getElementById("passlock-form");
     const passlockInput = document.getElementById("passlock-input");
     const passlockError = document.getElementById("passlock-error");
-    const beginBtn = document.getElementById("begin-btn");
-    const downloadBtn = document.getElementById("download-btn");
 
     const unlock = () => {
       localStorage.setItem(STORAGE_KEY, "granted");
@@ -966,14 +954,6 @@
         passlockInput.value = "";
         passlockInput.focus();
       }
-    });
-
-    beginBtn.addEventListener("click", () => {
-      document.getElementById("summary").scrollIntoView({ behavior: "smooth" });
-    });
-
-    downloadBtn.addEventListener("click", () => {
-      window.print();
     });
 
     const progress = document.querySelector(".progress");
