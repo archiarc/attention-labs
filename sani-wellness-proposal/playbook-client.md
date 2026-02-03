@@ -10,6 +10,10 @@
 
 This document is a comprehensive strategic playbook for launching and scaling Sunny Wellness Bali — Bali's first retreat-style wellness residence. It covers every aspect of marketing, from positioning and storytelling to tactical execution across all channels.
 
+Our strategy is to build a premium brand foundation, then activate a full-funnel demand engine across SEO, cinematic social, PR, influencers, paid media, OTA distribution, and B2B partnerships. Pre-launch focuses on asset production, channel setup, and list-building so demand is in place before doors open.
+
+Launch and growth focus on conversion, retention, and reputation: direct booking optimization, review generation, email nurture, community programming, and data-driven iteration. The aim is to position Sunny Wellness as Bali's premier wellness destination and sustain consistently high occupancy across rooms and services.
+
 ---
 
 # Part 1: Positioning & Brand Strategy
@@ -314,6 +318,20 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 # Part 4: Channel-by-Channel Playbook
 
+### Channel Priorities & Budget Range (Monthly)
+
+The ranges below are designed to keep total monthly spend at **$30K**. Dial each line item within range while keeping the overall budget flat.
+
+| Channel | Priority | Budget Range (Monthly) | Notes |
+|---------|----------|------------------------|-------|
+| **Content & Creative** | Highest | $8K-$10K | Shoots, editing, asset library, storytelling |
+| **Paid Media (Meta/Google/TikTok)** | High | $7K-$9K | Awareness + intent + retargeting |
+| **Influencers** | High | $4K-$6K | Mix of nano/micro/mid, hosted stays |
+| **PR & Media** | Medium | $2K-$3K | Press outreach, hosting, media kit |
+| **SEO & Website** | Medium | $2K-$3K | Content, technical SEO, LLM optimization |
+| **Community & Partnerships** | Medium | $2K-$3K | Events, collaborations, local activation |
+| **Email/CRM** | Medium | $1K-$2K | Automations, nurture, retention |
+
 ## 4.1 Website & SEO
 
 ### Website Must-Haves
@@ -357,6 +375,13 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - Google Business Profile optimization
 - Local citations (TripAdvisor, Yelp, local directories)
 - Fast, mobile-friendly site
+
+**LLM Optimization (LLMO):**
+- Treat this as an extension of strong SEO: crawlable pages, fast site, and consistent on-page structure
+- Add a concise "Property Facts" section with key details (location, amenities, programs, ideal guest)
+- Publish FAQ and "What to expect" pages with clear Q&A for easy extraction
+- Use structured data (Hotel, LocalBusiness, FAQ) and keep NAP consistent across citations
+- Encourage reputable mentions and press features to strengthen source authority
 
 ### SEO Timeline
 
@@ -504,7 +529,6 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - Strong hook in first 3 seconds
 - Clear CTA
 
-**Budget Guidance:** Start with $2-3K/month, scale based on ROAS
 
 ### Google Ads
 
@@ -517,7 +541,6 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 | **Google Hotel Ads** | Price comparison in hotel search |
 | **Display Retargeting** | Re-engage website visitors |
 
-**Budget Guidance:** Start with $1-2K/month
 
 ### TikTok Ads
 
@@ -525,7 +548,6 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 **Format:** Spark Ads (boosting organic content) + In-feed video ads
 
-**Budget:** $500-1K/month for testing
 
 ## 4.5 Influencer Marketing
 
@@ -533,10 +555,10 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 | Tier | Followers | Approach | Compensation |
 |------|-----------|----------|--------------|
-| **Nano** | 1K-10K | Volume, authenticity | Complimentary stay |
-| **Micro** | 10K-100K | Sweet spot for hotels | Stay + small fee ($200-500) |
-| **Mid** | 100K-500K | Broader reach | Stay + fee ($500-2000) |
-| **Macro** | 500K+ | Major awareness | Significant fee + stay |
+| **Nano** | 1K-10K | Volume, authenticity | Restaurant or services visit |
+| **Micro** | 10K-100K | Sweet spot for hotels | 1-3 nights stay |
+| **Mid** | 100K-500K | Broader reach | Up to one-week stay + services or payment |
+| **Macro** | 500K+ | Major awareness | Stay + tickets or additional payment |
 
 ### Ideal Influencer Profile
 
@@ -565,13 +587,6 @@ For a micro-influencer stay:
 - 1 Feed post (carousel or static)
 - Usage rights for 6 months
 
-### Budget
-
-- Nano: $0-200 per collaboration
-- Micro: $500-1500 per collaboration
-- Mid: $1500-5000 per collaboration
-
-**Monthly budget:** $2-5K for 5-10 micro-influencer collaborations
 
 ## 4.6 PR & Media Relations
 
@@ -1084,49 +1099,17 @@ For a micro-influencer stay:
 
 # Part 10: Budget Framework
 
-## Monthly Budget Allocation (Example: $10K/month)
+## Monthly Budget (Starting 1 Month Pre-Launch)
 
-| Category | Allocation | Amount |
-|----------|------------|--------|
-| Content Production | 25% | $2,500 |
-| Social Media Management | 15% | $1,500 |
-| Paid Advertising | 25% | $2,500 |
-| Influencer Marketing | 15% | $1,500 |
-| SEO & Content | 10% | $1,000 |
-| Tools & Software | 5% | $500 |
-| PR & Events | 5% | $500 |
+- **Total Budget:** $30K/month
+- **Start:** One month before opening
+- **Hold:** Maintain the same $30K/month through launch and the first 6 months post-launch
 
-## Scaling Budget
+Use the channel priority ranges in Part 4 to distribute spend without changing the total monthly budget.
 
-| Phase | Monthly Budget | Focus |
-|-------|----------------|-------|
-| **Pre-Launch** | $5-8K | Content, setup, waitlist |
-| **Launch (Months 1-3)** | $10-15K | Awareness, conversion, PR |
-| **Growth (Months 4-12)** | $8-12K | Optimization, retention |
-| **Mature** | $6-10K | Maintenance, efficiency |
 
----
 
-# Appendix A: Tools & Platforms
-
-## Recommended Tech Stack
-
-| Category | Tool | Purpose |
-|----------|------|---------|
-| **Website** | Webflow or WordPress | Website management |
-| **Booking** | Cloudbeds or Little Hotelier | PMS + booking engine |
-| **CRM** | HubSpot or Airtable | Guest relationships |
-| **Email** | Mailchimp or Klaviyo | Email marketing |
-| **Social** | Later or Buffer | Social scheduling |
-| **Analytics** | Google Analytics 4 | Website analytics |
-| **OTA Management** | Cloudbeds or SiteMinder | Channel manager |
-| **Reviews** | Reputation.com or manual | Review management |
-| **Design** | Canva Pro | Quick content creation |
-| **Project Mgmt** | Notion or Asana | Team coordination |
-
----
-
-# Appendix B: Competitor Reference
+# Appendix A: Competitor Reference
 
 ## Quick Competitive Comparison
 
@@ -1142,7 +1125,7 @@ For a micro-influencer stay:
 
 ---
 
-# Appendix C: Content Ideas Bank
+# Appendix B: Content Ideas Bank
 
 ## 50 Content Ideas
 
