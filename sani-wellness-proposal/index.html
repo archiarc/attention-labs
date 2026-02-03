@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunny Wellness Bali - Proposal</title>
+  <meta name="description" content="Proposal outline for Sunny Wellness Bali by Attention Labs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f2eb;
+      --bg-deep: #efe6da;
+      --ink: #151310;
+      --muted: #5b524a;
+      --accent: #b89567;
+      --line: rgba(21, 19, 16, 0.12);
+      --soft-line: rgba(21, 19, 16, 0.08);
+      --glow: rgba(184, 149, 103, 0.18);
+      --display: "Fraunces", "Times New Roman", serif;
+      --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: radial-gradient(circle at top, rgba(184, 149, 103, 0.08), transparent 50%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+      color: var(--ink);
+      min-height: 100vh;
+      line-height: 1.6;
+      letter-spacing: 0.01em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at 80% 10%, rgba(184, 149, 103, 0.08), transparent 45%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+      opacity: 0.35;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      z-index: 30;
+      box-shadow: 0 0 12px var(--glow);
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 clamp(24px, 5vw, 72px);
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: grid;
+      align-content: center;
+      gap: clamp(20px, 4vw, 40px);
+      padding-top: clamp(48px, 8vw, 96px);
+      padding-bottom: clamp(48px, 8vw, 96px);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.32em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--soft-line);
+      padding-bottom: 18px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: inherit;
+      margin-left: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: var(--ink);
+    }
+
+    .hero h1 {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: clamp(2.6rem, 6vw, 5.4rem);
+      line-height: 1.05;
+      letter-spacing: 0.02em;
+      max-width: 12ch;
+    }
+
+    .hero p {
+      font-size: clamp(1rem, 2vw, 1.35rem);
+      max-width: 58ch;
+      color: var(--muted);
+    }
+
+    .hero .meta {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 14px;
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      letter-spacing: 0.26em;
+      color: var(--muted);
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 1px solid var(--ink);
+      background: transparent;
+      color: var(--ink);
+      padding: 12px 22px;
+      font-size: 0.95rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px -16px rgba(21, 19, 16, 0.5);
+    }
+
+    section {
+      padding: clamp(64px, 10vw, 140px) 0;
+      border-top: 1px solid var(--soft-line);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: clamp(24px, 4vw, 36px);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    .section-title {
+      font-family: var(--display);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 400;
+    }
+
+    .lead {
+      max-width: 56ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      border: 1px solid var(--soft-line);
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(4px);
+      min-height: 140px;
+    }
+
+    .card h3 {
+      font-family: var(--display);
+      font-weight: 400;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .phase-tabs {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .phase-tab {
+      border: 1px solid var(--line);
+      background: transparent;
+      padding: 10px 16px;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      letter-spacing: 0.24em;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .phase-tab.active {
+      color: var(--ink);
+      border-color: var(--accent);
+      box-shadow: 0 10px 20px -18px var(--accent);
+    }
+
+    .phase-panel {
+      border: 1px solid var(--soft-line);
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.5);
+      display: none;
+    }
+
+    .phase-panel.active {
+      display: block;
+    }
+
+    .phase-panel ul {
+      list-style: none;
+      margin-top: 16px;
+    }
+
+    .phase-panel li {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--soft-line);
+      color: var(--muted);
+    }
+
+    .phase-panel li:last-child {
+      border-bottom: none;
+    }
+
+    .accordion {
+      border-top: 1px solid var(--soft-line);
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid var(--soft-line);
+    }
+
+    .accordion-toggle {
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      padding: 18px 0;
+      font-family: var(--display);
+      font-size: 1.4rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .accordion-toggle span {
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+
+    .accordion-panel {
+      padding-bottom: 20px;
+      display: none;
+      color: var(--muted);
+    }
+
+    .accordion-panel ul {
+      list-style: none;
+    }
+
+    .accordion-panel li {
+      padding: 6px 0;
+    }
+
+    .accordion-item.open .accordion-panel {
+      display: block;
+    }
+
+    .pricing {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .pricing-card {
+      border: 1px solid var(--soft-line);
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.5);
+      display: grid;
+      gap: 12px;
+      position: relative;
+      min-height: 260px;
+    }
+
+    .pricing-card.recommended {
+      border-color: var(--accent);
+      box-shadow: 0 20px 40px -30px var(--accent);
+      background: rgba(255, 255, 255, 0.75);
+    }
+
+    .pricing-card .tag {
+      position: absolute;
+      top: -14px;
+      right: 24px;
+      background: var(--accent);
+      color: #fff;
+      padding: 4px 10px;
+      font-size: 0.65rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    .pricing-card h3 {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: 1.7rem;
+    }
+
+    .pricing-card .price {
+      font-size: 1.4rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .pricing-card ul {
+      list-style: none;
+      color: var(--muted);
+    }
+
+    .pricing-card li {
+      padding: 6px 0;
+      border-bottom: 1px solid var(--soft-line);
+    }
+
+    .pricing-card li:last-child {
+      border-bottom: none;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .timeline-card {
+      border: 1px solid var(--soft-line);
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.45);
+    }
+
+    .timeline-card h4 {
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .timeline-card p {
+      color: var(--muted);
+    }
+
+    .split {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .callout {
+      border: 1px solid var(--line);
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: 0 20px 40px -40px rgba(21, 19, 16, 0.4);
+    }
+
+    .callout h3 {
+      font-family: var(--display);
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+
+    .callout ul {
+      list-style: none;
+      color: var(--muted);
+    }
+
+    .callout li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--soft-line);
+    }
+
+    .callout li:last-child {
+      border-bottom: none;
+    }
+
+    .footer {
+      padding: 32px 0 80px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--soft-line);
+    }
+
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    [data-reveal].is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .passlock {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 10, 10, 0.6);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+      z-index: 40;
+    }
+
+    .passlock-card {
+      background: #faf7f2;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 32px;
+      width: min(420px, 90vw);
+      box-shadow: 0 20px 60px -40px rgba(0, 0, 0, 0.6);
+      display: grid;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .passlock-card h2 {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: 2rem;
+    }
+
+    .passlock-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .passlock-card input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      font-size: 1rem;
+      font-family: var(--sans);
+    }
+
+    .passlock-card button {
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: #fff;
+      padding: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+
+    .passlock-card .error {
+      color: #8c3a2b;
+      font-size: 0.85rem;
+      min-height: 18px;
+    }
+
+    .internal {
+      border-left: 2px solid var(--accent);
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 720px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .nav a {
+        margin-left: 0;
+        margin-right: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress"></div>
+  <div class="grain"></div>
+
+  <div class="passlock" id="passlock">
+    <div class="passlock-card">
+      <span class="pill">Attention Labs</span>
+      <h2>Private Proposal</h2>
+      <p>Enter the shared passcode to view the Sunny Wellness Bali proposal.</p>
+      <form id="passlock-form">
+        <input type="password" id="passlock-input" placeholder="Passcode" autocomplete="current-password" />
+      </form>
+      <button type="submit" form="passlock-form">Unlock</button>
+      <div class="error" id="passlock-error"></div>
+    </div>
+  </div>
+
+  <header class="hero container" id="top">
+    <div class="nav">
+      <div>Attention Labs</div>
+      <div>
+        <a href="#summary">Summary</a>
+        <a href="#approach">Approach</a>
+        <a href="#services">Services</a>
+        <a href="#investment">Investment</a>
+        <a href="#next">Next Steps</a>
+      </div>
+    </div>
+
+    <div data-reveal>
+      <span class="pill">Proposal Outline</span>
+      <h1>Sunny Wellness Bali - Launching a retreat-level presence.</h1>
+      <p>
+        A cinematic, minimal proposal for Bali's first retreat-style wellness residence. Built to match the Open-inspired
+        aesthetic standard and translate it into a premium marketing engine.
+      </p>
+    </div>
+
+    <div class="meta" data-reveal>
+      <div>Project: Sunny Wellness Bali</div>
+      <div>Prepared by: Attention Labs</div>
+      <div>Timeline: July Launch Window</div>
+    </div>
+
+    <div class="hero-actions" data-reveal>
+      <button class="btn" id="begin-btn">Begin the Proposal</button>
+      <button class="btn" id="download-btn">Download PDF Summary</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="summary">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Executive Summary</div>
+          <div class="section-title">What we will deliver.</div>
+        </div>
+        <p class="lead">An end-to-end launch strategy that elevates Sunny Wellness Bali into a category-defining wellness brand.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card" data-reveal>
+          <h3>Who we are</h3>
+          <p>Attention Labs builds premium hospitality brands with a focus on cinematic storytelling, demand generation, and lasting positioning.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>What we understand</h3>
+          <p>Sunny Wellness is Bali's first retreat-style wellness residence and needs a launch that feels curated, calm, and category-leading.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>What we propose</h3>
+          <p>A phased go-to-market plan that blends brand refinement, content production, distribution, and growth systems.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>Expected outcomes</h3>
+          <p>Premium perception, consistent demand, and a marketing engine that scales with operations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Understanding Your Vision</div>
+          <div class="section-title">The standard we are matching.</div>
+        </div>
+        <p class="lead">Open-level aesthetics paired with a launch plan that respects the calm, intentional atmosphere of the property.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card" data-reveal>
+          <h3>Bali's first retreat-style residence</h3>
+          <p>A rare positioning opportunity in a crowded hospitality market.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>Open-inspired aesthetic</h3>
+          <p>Every touchpoint should feel editorial, cinematic, and quiet by design.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>July opening timeline</h3>
+          <p>We align the launch to the opening window with pre-launch demand building.</p>
+        </div>
+        <div class="card" data-reveal>
+          <h3>No marketing team</h3>
+          <p>We act as the embedded team, handling strategy, execution, and reporting.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Strategic Approach</div>
+          <div class="section-title">Three phases, one continuous story.</div>
+        </div>
+        <p class="lead">Each phase builds on the last to ensure we launch strong, stay full, and maintain premium perception.</p>
+      </div>
+
+      <div class="phase-tabs" data-reveal>
+        <button class="phase-tab active" data-phase="foundation">Phase 1 - Foundation</button>
+        <button class="phase-tab" data-phase="launch">Phase 2 - Launch</button>
+        <button class="phase-tab" data-phase="growth">Phase 3 - Growth</button>
+      </div>
+
+      <div class="phase-panel active" data-phase="foundation" data-reveal>
+        <strong>Month 1-2 - Pre-Launch</strong>
+        <ul>
+          <li>Brand refinement and content strategy</li>
+          <li>Social channel setup (Instagram, TikTok, YouTube)</li>
+          <li>OTA channel configuration (Booking, Airbnb, Agoda)</li>
+          <li>SEO foundations and keyword strategy</li>
+          <li>Photo & video production kickoff</li>
+          <li>Lead capture systems and CRM setup</li>
+        </ul>
+      </div>
+
+      <div class="phase-panel" data-phase="launch" data-reveal>
+        <strong>Month 3-4 - Opening Period</strong>
+        <ul>
+          <li>Launch campaign execution</li>
+          <li>Influencer seeding program</li>
+          <li>PR push with wellness and travel media</li>
+          <li>Paid media activation</li>
+          <li>B2B outreach to corporate and group bookings</li>
+        </ul>
+      </div>
+
+      <div class="phase-panel" data-phase="growth" data-reveal>
+        <strong>Month 5+ - Ongoing Operations</strong>
+        <ul>
+          <li>Continuous content production</li>
+          <li>Social media management</li>
+          <li>OTA optimization and review management</li>
+          <li>Paid media optimization</li>
+          <li>B2B sales development</li>
+          <li>Community events and local presence</li>
+          <li>Retention marketing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Service Breakdown</div>
+          <div class="section-title">Full-stack brand execution.</div>
+        </div>
+        <p class="lead">A modular set of services that can flex with resources and launch urgency.</p>
+      </div>
+
+      <div class="accordion" data-reveal>
+        <div class="accordion-item open">
+          <button class="accordion-toggle" type="button">Content & Creative <span>+</span></button>
+          <div class="accordion-panel">
+            <ul>
+              <li>Monthly photo shoots (lifestyle, rooms, amenities, F&B)</li>
+              <li>Video content (short-form for social, long-form for YouTube)</li>
+              <li>UGC coordination with guests</li>
+              <li>Brand asset management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">Digital Presence <span>+</span></button>
+          <div class="accordion-panel">
+            <ul>
+              <li>Instagram management (daily posting, stories, engagement)</li>
+              <li>TikTok content (3-5x/week)</li>
+              <li>YouTube channel (weekly wellness content)</li>
+              <li>Website content updates & optimization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">Distribution & Revenue <span>+</span></button>
+          <div class="accordion-panel">
+            <ul>
+              <li>OTA management (Booking, Airbnb, Agoda, Expedia)</li>
+              <li>Direct booking optimization</li>
+              <li>B2B outreach (corporate, groups, travel agents)</li>
+              <li>Partnership development (wellness brands, retreats)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">Paid Acquisition <span>+</span></button>
+          <div class="accordion-panel">
+            <ul>
+              <li>Meta Ads (Instagram/Facebook)</li>
+              <li>Google Ads (Search + Display)</li>
+              <li>TikTok Ads (awareness)</li>
+              <li>Retargeting campaigns</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">PR & Community <span>+</span></button>
+          <div class="accordion-panel">
+            <ul>
+              <li>Press outreach (wellness, travel, lifestyle publications)</li>
+              <li>Influencer hosting program</li>
+              <li>Local events (Bali wellness community)</li>
+              <li>Partnership activations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="investment">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Investment Options</div>
+          <div class="section-title">Choose the depth of engagement.</div>
+        </div>
+        <p class="lead">Each tier is designed to maintain a premium brand experience while scaling growth.</p>
+      </div>
+
+      <div class="pricing" data-reveal>
+        <div class="pricing-card">
+          <h3>Essential</h3>
+          <div class="price">$7,000 / month</div>
+          <ul>
+            <li>Social media management (Instagram + TikTok)</li>
+            <li>Monthly content coordination (1 shoot/month)</li>
+            <li>OTA setup & basic management</li>
+            <li>Basic SEO maintenance</li>
+            <li>Monthly reporting</li>
+          </ul>
+          <p><strong>Best for:</strong> Establishing presence with lean resources.</p>
+        </div>
+        <div class="pricing-card recommended">
+          <div class="tag">Recommended</div>
+          <h3>Growth</h3>
+          <div class="price">$10,000 / month</div>
+          <ul>
+            <li>Everything in Essential</li>
+            <li>Full content production (2 shoots/month)</li>
+            <li>YouTube channel management</li>
+            <li>Paid media management (ad spend not included)</li>
+            <li>B2B outreach program</li>
+            <li>Influencer coordination</li>
+            <li>Bi-weekly strategy calls</li>
+          </ul>
+          <p><strong>Best for:</strong> Aggressive launch with full channel coverage.</p>
+        </div>
+        <div class="pricing-card">
+          <h3>Full Service</h3>
+          <div class="price">$15,000 / month</div>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>Dedicated content creator on-site</li>
+            <li>PR & media relations</li>
+            <li>Event production support</li>
+            <li>Weekly strategy sessions</li>
+            <li>Priority response</li>
+          </ul>
+          <p><strong>Best for:</strong> Maximum impact, Open-level content quality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Team & Approach</div>
+          <div class="section-title">Small team, deep network.</div>
+        </div>
+        <p class="lead">We blend senior strategy with specialist execution to move fast without sacrificing taste.</p>
+      </div>
+
+      <div class="grid grid-2" data-reveal>
+        <div class="card">
+          <h3>Attention Labs overview</h3>
+          <p>We are a strategy-led creative collective built for premium hospitality and wellness brands.</p>
+        </div>
+        <div class="card">
+          <h3>Specialist network</h3>
+          <p>Content, paid media, SEO, PR, and partnership experts on a flexible bench.</p>
+        </div>
+        <div class="card">
+          <h3>How we work</h3>
+          <p>Clear communication, weekly check-ins, and lightweight approvals that keep us moving.</p>
+        </div>
+        <div class="card">
+          <h3>Tools & platforms</h3>
+          <p>Shared dashboards, analytics, and collaborative content planning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Timeline & Milestones</div>
+          <div class="section-title">First 90 days.</div>
+        </div>
+        <p class="lead">A week-by-week cadence designed to create momentum before opening and stabilize performance after.</p>
+      </div>
+      <div class="timeline" data-reveal>
+        <div class="timeline-card">
+          <h4>Weeks 1-4</h4>
+          <p>Brand foundation, channel setup, SEO groundwork, and launch calendar.</p>
+        </div>
+        <div class="timeline-card">
+          <h4>Weeks 5-8</h4>
+          <p>Content production, influencer planning, OTA optimization, pre-launch campaigns.</p>
+        </div>
+        <div class="timeline-card">
+          <h4>Weeks 9-12</h4>
+          <p>Launch push, PR outreach, paid media scaling, and early performance reviews.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="differentiators">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Key Differentiators</div>
+          <div class="section-title">Why this works.</div>
+        </div>
+        <p class="lead">Not just marketing - a brand system that respects the Open-level standard.</p>
+      </div>
+      <div class="callout" data-reveal>
+        <ul>
+          <li>We understand the Open aesthetic standard, not generic hotel marketing.</li>
+          <li>Strategy-first approach that diagnoses before prescribing.</li>
+          <li>Flexible execution model using your team, our contractors, or hybrid.</li>
+          <li>Bali network for local production resources at better rates.</li>
+          <li>Results-focused with clear KPIs, not vanity metrics.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="next">
+      <div class="section-head" data-reveal>
+        <div>
+          <div class="eyebrow">Terms & Next Steps</div>
+          <div class="section-title">Ready to move.</div>
+        </div>
+        <p class="lead">Three-month minimum recommended for launch. Payment schedule and kickoff requirements confirmed on acceptance.</p>
+      </div>
+      <div class="split" data-reveal>
+        <div class="callout">
+          <h3>Contract terms</h3>
+          <ul>
+            <li>3-month minimum engagement recommended for launch.</li>
+            <li>Monthly retainer billed in advance.</li>
+            <li>Kickoff requires access to existing assets and property schedule.</li>
+          </ul>
+        </div>
+        <div class="callout">
+          <h3>What we need to start</h3>
+          <ul>
+            <li>Brand guidelines, if available.</li>
+            <li>Property details and opening timeline confirmation.</li>
+            <li>Access to existing social handles or ability to secure them.</li>
+            <li>Point of contact for approvals.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>Attention Labs - Sunny Wellness Bali Proposal Outline</div>
+  </footer>
+
+  <script>
+    const PASSWORD = "sunny";
+    const STORAGE_KEY = "sani_wellness_access";
+    const passlock = document.getElementById("passlock");
+    const passlockForm = document.getElementById("passlock-form");
+    const passlockInput = document.getElementById("passlock-input");
+    const passlockError = document.getElementById("passlock-error");
+    const beginBtn = document.getElementById("begin-btn");
+    const downloadBtn = document.getElementById("download-btn");
+
+    const unlock = () => {
+      localStorage.setItem(STORAGE_KEY, "granted");
+      passlock.style.display = "none";
+    };
+
+    const checkAccess = () => {
+      if (localStorage.getItem(STORAGE_KEY) === "granted") {
+        passlock.style.display = "none";
+      }
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("pass") && params.get("pass") === PASSWORD) {
+      unlock();
+    }
+
+    checkAccess();
+
+    passlockForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (passlockInput.value.trim() === PASSWORD) {
+        passlockError.textContent = "";
+        unlock();
+      } else {
+        passlockError.textContent = "Passcode incorrect. Please try again.";
+        passlockInput.value = "";
+        passlockInput.focus();
+      }
+    });
+
+    beginBtn.addEventListener("click", () => {
+      document.getElementById("summary").scrollIntoView({ behavior: "smooth" });
+    });
+
+    downloadBtn.addEventListener("click", () => {
+      window.print();
+    });
+
+    const progress = document.querySelector(".progress");
+    const updateProgress = () => {
+      const doc = document.documentElement;
+      const scrollTop = doc.scrollTop;
+      const height = doc.scrollHeight - doc.clientHeight;
+      const ratio = height ? scrollTop / height : 0;
+      progress.style.transform = `scaleX(${ratio})`;
+    };
+    window.addEventListener("scroll", updateProgress, { passive: true });
+    updateProgress();
+
+    const tabs = document.querySelectorAll(".phase-tab");
+    const panels = document.querySelectorAll(".phase-panel");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach((btn) => btn.classList.remove("active"));
+        tab.classList.add("active");
+        const phase = tab.dataset.phase;
+        panels.forEach((panel) => {
+          panel.classList.toggle("active", panel.dataset.phase === phase);
+        });
+      });
+    });
+
+    const accordions = document.querySelectorAll(".accordion-item");
+    accordions.forEach((item) => {
+      const toggle = item.querySelector(".accordion-toggle");
+      toggle.addEventListener("click", () => {
+        item.classList.toggle("open");
+      });
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+
+    document.querySelectorAll("[data-reveal]").forEach((el) => observer.observe(el));
+  </script>
+</body>
+</html>
