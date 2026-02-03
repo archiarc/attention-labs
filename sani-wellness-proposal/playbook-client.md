@@ -10,8 +10,6 @@
 
 This document is a comprehensive strategic playbook for launching and scaling Sunny Wellness Bali — Bali's first retreat-style wellness residence. It covers every aspect of marketing, from positioning and storytelling to tactical execution across all channels.
 
-This is not a sales pitch. This is a complete roadmap that can be executed with or without us. Our goal is to provide genuine value and demonstrate how we think.
-
 ---
 
 # Part 1: Positioning & Brand Strategy
@@ -20,27 +18,33 @@ This is not a sales pitch. This is a complete roadmap that can be executed with 
 
 Bali's wellness market is mature and competitive. Key players include:
 
-| Property | Position | Unique Angle |
-|----------|----------|--------------|
-| COMO Shambhala Estate | Ultra-luxury clinical wellness | Medical-grade programs, celebrity clientele |
-| Fivelements Retreat | Luxury holistic sanctuary | Award-winning, ancient healing traditions |
-| The Istana | Biohacking-focused luxury | Cryo, sensory deprivation, hyperbaric |
-| REVĪVŌ Wellness Resort | Modern wellness meets tradition | Biohacking + local Usadha healing |
-| Sukhavati | Ayurvedic specialty | Authentic Panchakarma programs |
+| Property | Position | Price Point | Unique Angle |
+|----------|----------|-------------|--------------|
+| COMO Shambhala Estate | Ultra-luxury clinical wellness | $800-2000+/night | Medical-grade programs, celebrity clientele |
+| Fivelements Retreat | Luxury holistic sanctuary | $400-800/night | Award-winning, ancient healing traditions |
+| The Istana | Biohacking-focused luxury | $500-1000/night | Cryo, sensory deprivation, hyperbaric |
+| REVĪVŌ Wellness Resort | Modern wellness meets tradition | $300-600/night | Biohacking + local Usadha healing |
+| Sukhavati | Ayurvedic specialty | $400-800/night | Authentic Panchakarma programs |
 
 ### Where Sunny Wellness Fits
 
 **The Gap:** Most wellness hotels in Bali are either:
-- Ultra-expensive destination retreats (COMO, Fivelements)
-- Basic yoga retreats with limited amenities
+- Ultra-expensive destination retreats (COMO, Fivelements) — $500-2000/night
+- Basic yoga retreats with limited amenities — $50-150/night
 
 **Sunny's Opportunity:** Premium wellness living that's accessible for extended stays. Not a week-long destination retreat, but a lifestyle residence where you can stay a month and actually afford it.
+
+**Price positioning ($200-250/night):**
+- 50-70% cheaper than COMO/Fivelements
+- Premium compared to standard Bali accommodation
+- Sweet spot for digital nomads, wellness entrepreneurs, extended-stay travelers
 
 ## 1.2 Positioning Statement
 
 > **For health-conscious travelers and digital nomads who want more than a vacation,**
 > **Sunny Wellness is Bali's first retreat-style wellness residence**
 > **that combines world-class biohacking facilities with long-stay livability.**
+> **Unlike destination retreats that cost $1000/night for a week-long program,**
 > **Sunny makes daily wellness practice sustainable and affordable.**
 
 ## 1.3 Brand Personality
@@ -78,7 +82,7 @@ Based on the Open (@op_e___n) reference, the brand should feel:
 
 1. **Complete Stack** — Everything under one roof: thermal, cryo, hyperbaric, IV, breath, movement, nutrition
 2. **Daily Practice** — Not a one-week intervention, but sustainable daily wellness
-3. **Accessible Luxury** — Premium without pretension or intimidation
+3. **Accessible Luxury** — Premium without the premium-retreat price tag
 4. **Science + Soul** — Evidence-based protocols with spiritual grounding
 5. **Community** — Shared practice, not isolated consumption
 
@@ -189,7 +193,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |--------|-------------|
 | **Lead Magnet** | "The Complete Biohacking Protocol" PDF or "7-Day Wellness Reset Guide" |
 | **Newsletter** | Weekly wellness tips + Sunny updates |
-| **Waitlist** | Early access for opening, priority updates |
+| **Waitlist** | Early access for opening, exclusive rates |
 | **Social Engagement** | DM conversations, comment responses, Stories polls |
 | **Retargeting** | Website visitors see follow-up content |
 
@@ -207,7 +211,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 | Tactic | Description |
 |--------|-------------|
-| **Website Experience** | Clear room options, facility details, and booking flow |
+| **Website Experience** | Clear pricing, room options, facility details, booking flow |
 | **Virtual Tour** | 360° video or interactive tour of facilities |
 | **Testimonials** | Video and written reviews from early guests |
 | **Comparison Content** | "Sunny vs. destination retreats" — value proposition clarity |
@@ -217,7 +221,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 **Key Metrics:**
 - Booking page visits
-- Time on room pages
+- Time on pricing/room pages
 - Email open/click rates
 - Live chat/WhatsApp inquiries
 
@@ -229,9 +233,9 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 | Tactic | Description |
 |--------|-------------|
-| **Direct Booking Incentives** | Value-add perks like welcome amenities, upgrades, and flexible check-in/out |
+| **Direct Booking Incentives** | 10-15% off vs. OTAs, welcome amenity, free upgrade |
 | **Scarcity/Urgency** | "Only 3 rooms left for July" — real availability |
-| **Limited-Time Offers** | Seasonal packages and launch incentives |
+| **Limited-Time Offers** | Early bird rates, seasonal packages |
 | **Easy Booking** | Frictionless website booking, WhatsApp booking option |
 | **OTA Presence** | Optimized Booking.com, Airbnb, Agoda listings |
 | **Abandoned Cart** | Email/WhatsApp follow-up for incomplete bookings |
@@ -275,7 +279,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 | **Post-Stay Email Sequence** | Thank you → Review request → Rebooking offer |
 | **Loyalty Program** | Points/perks for returning guests |
 | **Anniversary Emails** | "It's been a year since your stay..." |
-| **Exclusive Offers** | Past-guest-only packages and experiences |
+| **Exclusive Offers** | Past-guest-only rates and packages |
 | **Community Access** | Alumni events, online community, priority booking |
 | **Personalization** | Remember preferences, celebrate milestones |
 
@@ -294,6 +298,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 | Tactic | Description |
 |--------|-------------|
 | **Review Generation** | Automated requests, QR codes, staff reminders |
+| **Referral Program** | "Give $50, Get $50" or similar |
 | **UGC Campaigns** | Hashtag campaigns, photo contests, feature guests |
 | **Testimonial Collection** | Video testimonials, case studies |
 | **Influencer Alumni** | Long-term relationships with past influencer guests |
@@ -438,9 +443,9 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - [ ] 40+ high-quality photos
 - [ ] Detailed room descriptions
 - [ ] All amenities listed
-- [ ] Competitive positioning
+- [ ] Competitive pricing
 - [ ] Genius program enrollment (18% booking boost)
-- [ ] Mobile-friendly options enabled
+- [ ] Mobile rates enabled
 - [ ] Flexible cancellation options
 - [ ] Property page score >90%
 
@@ -450,7 +455,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - [ ] Professional photos
 - [ ] Detailed house rules
 - [ ] Quick response time (<1 hour)
-- [ ] Extended-stay options enabled
+- [ ] Competitive long-stay discounts
 - [ ] Experience offerings (if applicable)
 
 ### Ranking Factors to Optimize
@@ -459,7 +464,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |--------|--------|
 | **Response time** | <2 hours on all platforms |
 | **Availability** | Keep calendar updated, avoid cancellations |
-
+| **Pricing** | Competitive, dynamic based on demand |
 | **Content quality** | Professional photos, complete descriptions |
 | **Reviews** | Generate positive reviews consistently |
 | **Conversion rate** | Optimize listing to convert views to bookings |
@@ -469,7 +474,8 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 **Target:** 60% direct, 40% OTA
 
 **Direct Booking Incentives:**
-- Value-add perks (welcome amenity, treatment credit)
+- 10-15% lower rate than OTAs
+- Welcome amenity (smoothie, treatment credit)
 - Flexible check-in/out
 - Room upgrade when available
 - Loyalty points
@@ -480,12 +486,12 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 **Campaign Structure:**
 
-| Campaign Type | Objective |
-|---------------|-----------|
-| **Awareness** | Reach, video views |
-| **Traffic** | Website visits, engagement |
-| **Conversions** | Bookings, leads |
-| **Retargeting** | Past visitors, email list |
+| Campaign Type | Objective | Budget % |
+|---------------|-----------|----------|
+| **Awareness** | Reach, video views | 20% |
+| **Traffic** | Website visits, engagement | 30% |
+| **Conversions** | Bookings, leads | 40% |
+| **Retargeting** | Past visitors, email list | 10% |
 
 **Audiences:**
 - Interest-based: Wellness, biohacking, yoga, meditation, travel
@@ -498,6 +504,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - Strong hook in first 3 seconds
 - Clear CTA
 
+**Budget Guidance:** Start with $2-3K/month, scale based on ROAS
 
 ### Google Ads
 
@@ -507,9 +514,10 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |----------|---------|
 | **Search** | Capture high-intent "wellness hotel bali" searches |
 | **Performance Max** | AI-optimized across Google properties |
-| **Google Hotel Ads** | Placement in hotel search results |
+| **Google Hotel Ads** | Price comparison in hotel search |
 | **Display Retargeting** | Re-engage website visitors |
 
+**Budget Guidance:** Start with $1-2K/month
 
 ### TikTok Ads
 
@@ -517,6 +525,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 **Format:** Spark Ads (boosting organic content) + In-feed video ads
 
+**Budget:** $500-1K/month for testing
 
 ## 4.5 Influencer Marketing
 
@@ -525,8 +534,8 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 | Tier | Followers | Approach | Compensation |
 |------|-----------|----------|--------------|
 | **Nano** | 1K-10K | Volume, authenticity | Complimentary stay |
-| **Micro** | 10K-100K | Sweet spot for hotels | Stay + fee |
-| **Mid** | 100K-500K | Broader reach | Stay + fee |
+| **Micro** | 10K-100K | Sweet spot for hotels | Stay + small fee ($200-500) |
+| **Mid** | 100K-500K | Broader reach | Stay + fee ($500-2000) |
 | **Macro** | 500K+ | Major awareness | Significant fee + stay |
 
 ### Ideal Influencer Profile
@@ -556,10 +565,13 @@ For a micro-influencer stay:
 - 1 Feed post (carousel or static)
 - Usage rights for 6 months
 
-- Nano: Complimentary stay
-- Micro: Stay + fee
-- Mid: Stay + fee
+### Budget
 
+- Nano: $0-200 per collaboration
+- Micro: $500-1500 per collaboration
+- Mid: $1500-5000 per collaboration
+
+**Monthly budget:** $2-5K for 5-10 micro-influencer collaborations
 
 ## 4.6 PR & Media Relations
 
@@ -650,7 +662,7 @@ For a micro-influencer stay:
 **Content Mix:**
 - 40% Value (wellness tips, content)
 - 30% Brand (updates, behind-the-scenes)
-- Offers (promotions, packages)
+- 20% Offers (promotions, packages)
 - 10% Community (guest features, events)
 
 ## 4.8 B2B Sales
@@ -677,11 +689,11 @@ For a micro-influencer stay:
 
 3. **Discovery**
    - Understand their goals, group size, timing
-   - Identify decision process and constraints
+   - Identify decision process and budget
 
 4. **Proposal**
    - Custom package based on their needs
-   - Clear scope, inclusions, timeline
+   - Clear pricing, inclusions, timeline
    - Case studies/testimonials if available
 
 5. **Close**
@@ -692,7 +704,7 @@ For a micro-influencer stay:
 ### B2B Materials Needed
 
 - [ ] Corporate retreat brochure (PDF)
-- [ ] Group package sheet
+- [ ] Group pricing sheet
 - [ ] Case studies (as available)
 - [ ] Site visit invitation
 - [ ] FAQ for group bookings
@@ -726,7 +738,7 @@ For a micro-influencer stay:
 - **Supplement Brand:** In-room welcome amenity, co-branded content
 - **Fitness Equipment:** Gym equipped by partner brand, co-promotion
 - **Local Restaurant:** Curated dining experiences, package inclusions
-- **Digital Nomad Platform:** Featured property, exclusive perks for members
+- **Digital Nomad Platform:** Featured property, exclusive rates for members
 
 ### Outreach Process
 
@@ -859,6 +871,14 @@ For a micro-influencer stay:
 - Review monitoring
 - Issue response
 
+### Launch Offers
+
+| Offer | Description | Duration |
+|-------|-------------|----------|
+| **Opening Rate** | 20% off first month | 4 weeks |
+| **Early Bird** | 15% off for waitlist members | 2 weeks |
+| **Extended Stay** | 7 nights for price of 5 | Ongoing |
+| **Founding Member** | Special perks for first 50 guests | Until sold |
 
 ---
 
@@ -883,7 +903,7 @@ For a micro-influencer stay:
 
 ## Annual Planning
 
-- Resource allocation review
+- Budget allocation review
 - Major campaign planning (seasons, holidays)
 - Team and contractor assessment
 - Technology and tool evaluation
@@ -916,8 +936,16 @@ For a micro-influencer stay:
 |--------|--------|
 | Website conversion rate | 2-3% |
 | Direct booking ratio | 60% |
+| Average booking value | $1,500+ |
 | Cart abandonment rate | <70% |
 
+### Revenue Metrics
+| Metric | Target |
+|--------|--------|
+| Occupancy rate | 70% by month 6 |
+| RevPAR | $150+ |
+| ADR | $220+ |
+| Revenue per available room | Benchmark against market |
 
 ### Retention Metrics
 | Metric | Target |
@@ -930,6 +958,8 @@ For a micro-influencer stay:
 ### Efficiency Metrics
 | Metric | Target |
 |--------|--------|
+| CAC (Customer Acquisition Cost) | <$50 |
+| ROAS (Return on Ad Spend) | 5:1+ |
 | Email open rate | 25%+ |
 | Social engagement rate | 3%+ |
 
@@ -970,7 +1000,7 @@ For a micro-influencer stay:
 - [ ] Airbnb listing live
 - [ ] Agoda listing live
 - [ ] All listings have 30+ photos
-- [ ] Packages and availability configured correctly
+- [ ] Pricing configured correctly
 - [ ] Availability synced
 
 ### Email Marketing
@@ -1042,7 +1072,7 @@ For a micro-influencer stay:
 - [ ] What worked / what didn't analysis
 - [ ] Optimization opportunities identified
 - [ ] New experiments planned
-- [ ] Resource reallocation if needed
+- [ ] Budget reallocation if needed
 
 ### Outreach
 - [ ] New influencer batch identified
@@ -1052,6 +1082,30 @@ For a micro-influencer stay:
 
 ---
 
+# Part 10: Budget Framework
+
+## Monthly Budget Allocation (Example: $10K/month)
+
+| Category | Allocation | Amount |
+|----------|------------|--------|
+| Content Production | 25% | $2,500 |
+| Social Media Management | 15% | $1,500 |
+| Paid Advertising | 25% | $2,500 |
+| Influencer Marketing | 15% | $1,500 |
+| SEO & Content | 10% | $1,000 |
+| Tools & Software | 5% | $500 |
+| PR & Events | 5% | $500 |
+
+## Scaling Budget
+
+| Phase | Monthly Budget | Focus |
+|-------|----------------|-------|
+| **Pre-Launch** | $5-8K | Content, setup, waitlist |
+| **Launch (Months 1-3)** | $10-15K | Awareness, conversion, PR |
+| **Growth (Months 4-12)** | $8-12K | Optimization, retention |
+| **Mature** | $6-10K | Maintenance, efficiency |
+
+---
 
 # Appendix A: Tools & Platforms
 
@@ -1076,13 +1130,15 @@ For a micro-influencer stay:
 
 ## Quick Competitive Comparison
 
-| Property | Biohacking | Atmosphere | Location |
-|----------|------------|------------|----------|
-| COMO Shambhala | Medium | Ultra-luxury | Ubud |
-| Fivelements | Low | Spiritual sanctuary | Ubud |
-| The Istana | High | Luxury boutique | Uluwatu |
-| REVĪVŌ | High | Modern wellness | Nusa Dua |
-| **Sunny Wellness** | High | Accessible premium | Uluwatu |
+| Property | Price | Biohacking | Atmosphere | Location |
+|----------|-------|------------|------------|----------|
+| COMO Shambhala | $$$$$ | Medium | Ultra-luxury | Ubud |
+| Fivelements | $$$$ | Low | Spiritual sanctuary | Ubud |
+| The Istana | $$$$ | High | Luxury boutique | Uluwatu |
+| REVĪVŌ | $$$ | High | Modern wellness | Nusa Dua |
+| **Sunny Wellness** | $$ | High | Accessible premium | Uluwatu |
+
+**Sunny's Advantage:** Most biohacking amenities at the most accessible price point in the premium segment.
 
 ---
 

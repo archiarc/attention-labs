@@ -146,6 +146,10 @@
       padding-top: clamp(24px, 4vw, 40px);
     }
 
+    .markdown-plain {
+      white-space: pre-wrap;
+    }
+
     .markdown h1,
     .markdown h2,
     .markdown h3,
@@ -696,7 +700,7 @@
 
   <main class="container">
     <section id="playbook">
-      <div id="playbook-content" class="markdown" data-reveal>
+      <div id="playbook-content" class="markdown">
         <p class="lead">Loading the strategic playbook...</p>
       </div>
     </section>
@@ -706,7 +710,7 @@
     <div>Attention Labs - Sunny Wellness Bali Strategic Playbook</div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="marked.min.js"></script>
   <script>
     const PASSWORD = "sunny";
     const STORAGE_KEY = "sani_wellness_access";
@@ -764,11 +768,16 @@
     window.addEventListener("scroll", updateProgress, { passive: true });
     updateProgress();
 
-    if (playbookContent && window.marked) {
+    if (playbookContent) {
       fetch("playbook-client.md")
         .then((response) => response.text())
         .then((markdown) => {
-          playbookContent.innerHTML = marked.parse(markdown, { headerIds: true, mangle: false });
+          if (window.marked) {
+            playbookContent.innerHTML = marked.parse(markdown, { headerIds: true, mangle: false });
+          } else {
+            playbookContent.textContent = markdown;
+            playbookContent.classList.add("markdown-plain");
+          }
         })
         .catch(() => {
           playbookContent.innerHTML = "<p class=\"lead\">Unable to load the playbook content.</p>";
