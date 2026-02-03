@@ -324,9 +324,9 @@ The ranges below are designed to keep total monthly spend at **$30K**. Dial each
 
 | Channel | Priority | Budget Range (Monthly) | Notes |
 |---------|----------|------------------------|-------|
-| **Content & Creative** | Highest | $8K-$10K | Shoots, editing, asset library, storytelling |
-| **Paid Media (Meta/Google/TikTok)** | High | $7K-$9K | Awareness + intent + retargeting |
-| **Influencers** | High | $4K-$6K | Mix of nano/micro/mid, hosted stays |
+| **Content & Creative** | High | $2K-$4K | Lean in-house team + focused shoots |
+| **Paid Media (Meta/Google/TikTok)** | Medium | $5K-$7K | Reduced 10-20% to reallocate into creators |
+| **Influencers** | Highest | $9K-$12K | Primary growth lever across tiers |
 | **PR & Media** | Medium | $2K-$3K | Press outreach, hosting, media kit |
 | **SEO & Website** | Medium | $2K-$3K | Content, technical SEO, LLM optimization |
 | **Community & Partnerships** | Medium | $2K-$3K | Events, collaborations, local activation |
