@@ -189,7 +189,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |--------|-------------|
 | **Lead Magnet** | "The Complete Biohacking Protocol" PDF or "7-Day Wellness Reset Guide" |
 | **Newsletter** | Weekly wellness tips + Sunny updates |
-| **Waitlist** | Early access for opening, exclusive rates |
+| **Waitlist** | Early access for opening, priority updates |
 | **Social Engagement** | DM conversations, comment responses, Stories polls |
 | **Retargeting** | Website visitors see follow-up content |
 
@@ -217,7 +217,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 
 **Key Metrics:**
 - Booking page visits
-- Time on pricing/room pages
+- Time on room pages
 - Email open/click rates
 - Live chat/WhatsApp inquiries
 
@@ -231,7 +231,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |--------|-------------|
 | **Direct Booking Incentives** | Value-add perks like welcome amenities, upgrades, and flexible check-in/out |
 | **Scarcity/Urgency** | "Only 3 rooms left for July" — real availability |
-| **Limited-Time Offers** | Early bird rates, seasonal packages |
+| **Limited-Time Offers** | Seasonal packages and launch incentives |
 | **Easy Booking** | Frictionless website booking, WhatsApp booking option |
 | **OTA Presence** | Optimized Booking.com, Airbnb, Agoda listings |
 | **Abandoned Cart** | Email/WhatsApp follow-up for incomplete bookings |
@@ -275,7 +275,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 | **Post-Stay Email Sequence** | Thank you → Review request → Rebooking offer |
 | **Loyalty Program** | Points/perks for returning guests |
 | **Anniversary Emails** | "It's been a year since your stay..." |
-| **Exclusive Offers** | Past-guest-only rates and packages |
+| **Exclusive Offers** | Past-guest-only packages and experiences |
 | **Community Access** | Alumni events, online community, priority booking |
 | **Personalization** | Remember preferences, celebrate milestones |
 
@@ -438,9 +438,9 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - [ ] 40+ high-quality photos
 - [ ] Detailed room descriptions
 - [ ] All amenities listed
-- [ ] Competitive pricing
+- [ ] Competitive positioning
 - [ ] Genius program enrollment (18% booking boost)
-- [ ] Mobile rates enabled
+- [ ] Mobile-friendly options enabled
 - [ ] Flexible cancellation options
 - [ ] Property page score >90%
 
@@ -450,7 +450,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 - [ ] Professional photos
 - [ ] Detailed house rules
 - [ ] Quick response time (<1 hour)
-- [ ] Competitive long-stay discounts
+- [ ] Extended-stay options enabled
 - [ ] Experience offerings (if applicable)
 
 ### Ranking Factors to Optimize
@@ -459,7 +459,7 @@ AWARENESS → INTEREST → CONSIDERATION → CONVERSION → EXPERIENCE → RETEN
 |--------|--------|
 | **Response time** | <2 hours on all platforms |
 | **Availability** | Keep calendar updated, avoid cancellations |
-| **Pricing** | Competitive, dynamic based on demand |
+
 | **Content quality** | Professional photos, complete descriptions |
 | **Reviews** | Generate positive reviews consistently |
 | **Conversion rate** | Optimize listing to convert views to bookings |
@@ -556,8 +556,6 @@ For a micro-influencer stay:
 - 1 Feed post (carousel or static)
 - Usage rights for 6 months
 
-### Budget
-
 - Nano: Complimentary stay
 - Micro: Stay + fee
 - Mid: Stay + fee
@@ -652,7 +650,7 @@ For a micro-influencer stay:
 **Content Mix:**
 - 40% Value (wellness tips, content)
 - 30% Brand (updates, behind-the-scenes)
-- 20% Offers (promotions, packages)
+- Offers (promotions, packages)
 - 10% Community (guest features, events)
 
 ## 4.8 B2B Sales
@@ -679,11 +677,11 @@ For a micro-influencer stay:
 
 3. **Discovery**
    - Understand their goals, group size, timing
-   - Identify decision process and budget
+   - Identify decision process and constraints
 
 4. **Proposal**
    - Custom package based on their needs
-   - Clear pricing, inclusions, timeline
+   - Clear scope, inclusions, timeline
    - Case studies/testimonials if available
 
 5. **Close**
@@ -728,7 +726,7 @@ For a micro-influencer stay:
 - **Supplement Brand:** In-room welcome amenity, co-branded content
 - **Fitness Equipment:** Gym equipped by partner brand, co-promotion
 - **Local Restaurant:** Curated dining experiences, package inclusions
-- **Digital Nomad Platform:** Featured property, exclusive rates for members
+- **Digital Nomad Platform:** Featured property, exclusive perks for members
 
 ### Outreach Process
 
@@ -885,7 +883,7 @@ For a micro-influencer stay:
 
 ## Annual Planning
 
-- Budget allocation review
+- Resource allocation review
 - Major campaign planning (seasons, holidays)
 - Team and contractor assessment
 - Technology and tool evaluation
@@ -972,7 +970,7 @@ For a micro-influencer stay:
 - [ ] Airbnb listing live
 - [ ] Agoda listing live
 - [ ] All listings have 30+ photos
-- [ ] Pricing configured correctly
+- [ ] Packages and availability configured correctly
 - [ ] Availability synced
 
 ### Email Marketing
@@ -1044,7 +1042,7 @@ For a micro-influencer stay:
 - [ ] What worked / what didn't analysis
 - [ ] Optimization opportunities identified
 - [ ] New experiments planned
-- [ ] Budget reallocation if needed
+- [ ] Resource reallocation if needed
 
 ### Outreach
 - [ ] New influencer batch identified
